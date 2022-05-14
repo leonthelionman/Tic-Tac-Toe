@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- external jquery link -->
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	</head>
+	<body>
+		<div id="title">
+			<h1>tic tac toe</h1>	
+		</div>
+
+		<table>
+			<tr>
+			  <th class = "bottom_row top_right">
+				<button class = "load-button" id = "X_0" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+
+			  <th class = "top_row bottom_row">
+				<button class = "load-button" id = "X_1" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+			  <th class = "top_row bottom_row">
+				<button class = "load-button" id = "X_2" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+			</tr>
+			<tr>
+			  <th class = "bottom_row">
+				<button class = "load-button" id = "X_3" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+			  <th class = "top_row bottom_row">
+				<button class = "load-button" id = "X_4" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+
+			  <th class = "top_row bottom_row">
+				<button class = "load-button" id = "X_5" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			</tr>
+			<tr>
+			  <th>
+				<button class = "load-button" id = "X_6" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+
+			  <th class = "top_row">
+				<button class = "load-button" id = "X_7" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+			  <th class = "top_row">
+				<button class = "load-button" id = "X_8" onclick="TicTacToe.reply_click(this.id)"></button>
+			  </th>
+			  
+			</tr>
+		</table>
+
+		<div id="PlaceWords">
+			<h3>X Turn</h3>	
+			<input type="button" id="togglee" value="Play again?" onclick="TicTacToe.clearboard()"/>	
+		</div>
+		
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
